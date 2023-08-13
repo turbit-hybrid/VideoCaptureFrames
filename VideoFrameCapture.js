@@ -17,7 +17,7 @@ const token = authState ? authState.accessToken : null;
 
 const handleImageUpload = (event) => {
 
-
+const file = event.target.files[0]; // Get the selected file from the event
 
   if (file) {
     setSelectedImageFile(file);
