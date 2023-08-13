@@ -216,10 +216,7 @@ frameContainer : {
   justifyContent: 'space-between',
   marginTop: '20px',
 },
-/* Specific style for the "Capture Frame" button */
-captureButton:{
-  backgroundColor: '#f39c12',
-},
+
 
 /* Styles for captured frames */
 capturedFrame:{
@@ -267,7 +264,7 @@ capturedFrame:{
             </button>
 
           )}
-          <button style={styles.captureButton} onClick={handleCaptureFrames}>
+          <button style={styles.captureButton} onClick={handleCaptureFrame}>
             Capture Frame
           </button>
           </div>
